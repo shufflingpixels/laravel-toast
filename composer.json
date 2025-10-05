@@ -1,0 +1,29 @@
+{
+  "name": "shufflingpixels/laravel-toast",
+  "description": "Lightweight toast backend with session flash support for Laravel",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "ShufflingPixels\\Toast\\": "src/Toast"
+    },
+    "files": ["src/helpers.php"]
+  },
+  "extra": {
+    "laravel": {
+      "providers": ["ShufflingPixels\\Toast\\ToastServiceProvider"],
+      "aliases": {
+        "Toast": "ShufflingPixels\\Toast\\Toast"
+      }
+    }
+  },
+  "require": {
+    "php": ">=8.1",
+    "illuminate/support": ">=10.0"
+  },
+  "archive": {
+    "exclude": [ "src/stubs" ]
+  },
+  "suggest": {
+    "shufflingpixels/laravel-toast-flux": "Frontend using Livewire Flux, Tailwind CSS and alpinejs"
+  }
+}
