@@ -2,6 +2,7 @@
   "name": "shufflingpixels/laravel-toast",
   "description": "Lightweight toast backend with session flash support for Laravel",
   "type": "library",
+  "license": "AGPL-3.0-or-later",
   "autoload": {
     "psr-4": {
       "ShufflingPixels\\Toast\\": "src/Toast"
